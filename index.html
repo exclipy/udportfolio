@@ -107,7 +107,7 @@
       <p>&copy; Web Performance 2014 <span id="crp-stats"></span></p>
     </footer>
 
-    <script>
+    <script async>
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
         l.href = '//fonts.googleapis.com/css?family=Open+Sans:400,700';
@@ -119,7 +119,7 @@
       else window.addEventListener('load', cb);
     </script>
 
-    <script>
+    <script async>
       (function(w,g){w['GoogleAnalyticsObject']=g;
       w[g]=w[g]||function(){(w[g].q=w[g].q||[]).push(arguments)};w[g].l=1*new Date();})(window,'ga');
 
@@ -128,7 +128,7 @@
       ga('send', 'pageview');
     </script>
     <script src="http://www.google-analytics.com/analytics.js" async></script>
-    <script>
+    <script async>
         // Measuring the Critical Rendering Path with Navigation Timing
         // https://developers.google.com/web/fundamentals/performance/critical-rendering-path/measure-crp
 
